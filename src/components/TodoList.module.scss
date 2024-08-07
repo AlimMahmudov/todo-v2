@@ -1,0 +1,73 @@
+.TodoList {
+  font-family: "Gill Sans", sans-serif;
+  text-align: center;
+  line-height: 60px;
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    input {
+      font-size: 16px;
+      width: 500px;
+      height: 40px;
+      border-radius: 20px;
+      padding: 5px;
+      outline: none;
+    }
+    .btn {
+      padding: 15px 50px;
+      font-size: 16px;
+      font-family: "Gill Sans", sans-serif;
+      background: rgb(81, 81, 243);
+      color: white;
+      border-radius: 20px;
+    }
+  }
+  .EditTodos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    .card {
+      box-shadow: 0 0 0px #1f48ff, 0 0 40px #1f48ff, 0 0 0px #1f48ff;
+      padding: 5px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #a8a4a4;
+
+      img {
+        width: 300px;
+        border-radius: 20px;
+      }
+      .btns {
+        display: flex;
+        gap: 50px;
+
+        .greenBtn {
+          background: #1f48ff;
+          width: 80px;
+          height: 40px;
+          font-size: 16px;
+          color: white;
+          border-radius: 20px;
+          border: none;
+        }
+        .redBtn {
+          background: #ff0000;
+          width: 80px;
+          height: 40px;
+          font-size: 16px;
+          color: white;
+          border-radius: 20px;
+          border: none;
+        }
+      }
+    }
+  }
+}
